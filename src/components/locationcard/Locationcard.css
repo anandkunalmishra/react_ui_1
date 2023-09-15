@@ -1,0 +1,31 @@
+.locationcard {
+    position: relative;
+    border-radius: 25px; 
+    overflow: hidden;
+    width: 300px; 
+    left: 50px;
+  }
+  
+  .image img {
+    width: 100%; 
+    display: block;
+    border-radius: 15px 15px 0 0; 
+  }
+
+  .name {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    color: white;
+  }
+  
+  .name h2 {
+    font-size: 1.7rem; 
+  }
+  
+  .name p {
+    font-size: 1rem; 
+  }
