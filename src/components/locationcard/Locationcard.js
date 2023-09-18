@@ -1,19 +1,19 @@
 import React from 'react'
 import "./Locationcard.css"
-import imgsrc from "../../asset/fall.jpg"
 
-function Locationcard() {
+function Locationcard({ location, propertiesCount, imgsrc }) { 
+
   return (
     <div className="locationcard">
-        <div className="image">
-            <img src={imgsrc} alt="Place"></img>
-        </div>
-        <div className="name">
-          <h2>Location</h2>
-          <p> properties</p>
-        </div>
+      <div className="image">
+        <img className="testing" src={imgsrc} alt="Place" />
+      </div>
+      <div className="name">
+        <h2>{location}</h2>
+        <p>{propertiesCount} properties</p>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Locationcard
+export default Locationcard;

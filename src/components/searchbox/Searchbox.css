@@ -1,0 +1,54 @@
+.searchbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid orange;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    color: #dcdcdc;
+    margin-top: -89px;
+    padding: 0 4% 0 4%;
+}
+
+  
+  /* .searchbox .location,
+  .searchbox .duration,
+  .searchbox .persondetails
+  {
+    flex: 1;
+  }
+
+  .searchbox .searchbtn{
+    flex: 0.4;
+  } */
+  
+  .searchbox .location,
+  .searchbox .duration,
+  .searchbox .persondetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    gap: 6px;
+  }
+
+  .location h5{
+    color: #8c8a8a;
+  }
+  
+  /* Optional: Adjust styling for the button */
+  .searchbox .searchbtn button {
+    width: fit-content;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .searchbox .searchbtn button:hover {
+    background-color: #3498db;
+  }
+  

@@ -1,0 +1,21 @@
+.imagepart {
+    text-align: left;
+  }
+  
+.imagesec {
+width: 200px; 
+height: 150px; 
+object-fit: cover; 
+border-radius: 10px 10px 0 0;
+}
+
+.imagepart p {
+font-size: 1.2em;
+font-weight: 600;
+}
+
+.imagepart h6 {
+font-size: 0.9em;
+font-weight: 400;
+}
+  

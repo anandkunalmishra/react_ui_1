@@ -1,0 +1,29 @@
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+}
+.App{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.header{
+    background-color: #0d3069;
+    padding: 2% 5% 4% 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 2% 5%;
+}
+.Titlecat{
+    font-weight: 900;
+    font-size: 19px;
+}

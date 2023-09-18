@@ -1,0 +1,29 @@
+body{
+    color: white;
+}
+.intronav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+h1{
+    font-weight: 650;
+    font-size: 30px;
+}
+h5{
+    font-weight: 420;
+    font-size: 15px;
+}
+.intronav button{
+    padding: 15px;
+    width: fit-content;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3498db;
+}

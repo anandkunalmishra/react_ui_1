@@ -1,0 +1,25 @@
+/* Optionsnav.css */
+
+.options-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 18px;
+  }
+  
+  
+  
+  .option1, .option2, .option3, .option4, .option5{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+  }
+  
+  .option1 {
+    border: 2px solid white;
+    border-radius: 18px;
+  }
+  
+  

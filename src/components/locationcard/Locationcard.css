@@ -1,11 +1,14 @@
 .locationcard {
     position: relative;
-    border-radius: 25px; 
+    border-radius: 10px; 
     overflow: hidden;
-    width: 300px; 
-    left: 50px;
+    width: 400px;
   }
-  
+  .image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .image img {
     width: 100%; 
     display: block;
@@ -27,5 +30,10 @@
   }
   
   .name p {
-    font-size: 1rem; 
+    font-size: 1rem;
+    font-weight: 710; 
+  }
+
+  .testing{
+    height: 280px;
   }
